@@ -1,0 +1,89 @@
+@import "../css/normalize.css";
+@import 'vars.scss';
+@import "fontawesome";
+@import "brands";
+@import "solid";
+
+@mixin box-sizing($prop) {
+  -webkit-box-sizing: $prop;
+  -moz-box-sizing: $prop;
+  box-sizing: $prop;
+}
+
+@mixin transition($prop, $time) {
+  -webkit-transition: $prop $time;
+  -moz-transition: $prop $time;
+  -ms-transition: $prop $time;
+  -o-transition: $prop $time;
+  transition: $prop $time;
+}
+
+html {
+  @include box-sizing(border-box);
+}
+
+*, *::after, *::before {
+  @include box-sizing(inherit);
+}
+
+%template-links {
+  a {
+    @include transition(all ease, .1s);
+    text-decoration: none;
+
+    &:link {
+      color: $font-color;
+    }
+
+    &:visited {
+      color: $font-color;
+    }
+
+    &:hover {
+      opacity: .7;
+    }
+
+    &:active {
+      color: red;
+    }
+  }
+}
+
+.menu
+.bars {
+  @extend %fa-icon;
+  @extend .fas;
+
+  &:before {
+    content: fa-content($fa-var-bars);
+  }
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.header {
+  background-color: $accent;
+
+  &__inner {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu, .social-icons, {
+  @extend %template-links
+}
+
+
+
+
+
