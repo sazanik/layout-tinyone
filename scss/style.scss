@@ -19,15 +19,7 @@
   transition: $prop $time;
 }
 
-html {
-  @include box-sizing(border-box);
-}
-
-*, *::after, *::before {
-  @include box-sizing(inherit);
-}
-
-%template-links {
+@mixin links {
   a {
     @include transition(all ease, .1s);
     text-decoration: none;
@@ -50,6 +42,16 @@ html {
   }
 }
 
+
+html {
+  @include box-sizing(border-box);
+}
+
+*, *::after, *::before {
+  @include box-sizing(inherit);
+}
+
+
 .bars {
   @extend %fa-icon;
   @extend .fas;
@@ -59,74 +61,7 @@ html {
   }
 }
 
-body {
-  min-width: 320px;
-  overflow-x: hidden;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: $font-color;
-}
 
-.container {
-  padding: 0 20px 20px 20px;
-}
-
-.header {
-  @extend %template-links;
-  background-color: $accent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  &__nav {
-    min-height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__title {
-    font-size: 48px;
-    color: rgb(34, 34, 34);
-    font-weight: bold;
-    text-align: center;
-  }
-
-  &__subtitle {
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: normal;
-    text-align: center;
-  }
-
-  &__button {
-    border: 2px solid #000;
-    width: 260px;
-    height: 60px;
-    background-color: $accent;
-    font-size: 22px;
-    color: rgb(1, 1, 1);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.1;
-    margin: 30px 0;
-    transition: all ease .2s;
-
-    &:hover {
-      cursor: pointer;
-      color: $accent;
-      background-color: $font-color;
-    }
-  }
-
-  &__arrow-down {
-    font-size: 32px;
-  }
-}
-
-.bars, .social-icons, {
-  display: none;
-}
 
 
 
