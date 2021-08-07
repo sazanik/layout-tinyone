@@ -6153,4 +6153,25 @@ body {
   content: "";
 }
 
-/*# sourceMappingURL=style.css.map */
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.price__value {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.price__line {
+  width: 50px;
+  height: 2px;
+  background-color: #000;
+}
+.price__period {
+  font-size: 16px;
+  color: #898989;
+}
+
+/*# sourceMappingURL=price.css.map */

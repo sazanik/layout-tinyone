@@ -1,6 +1,7 @@
 @import "../css/normalize.css";
 @import 'vars.scss';
 @import "fontawesome";
+@import "regular";
 @import "brands";
 @import "solid";
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
@@ -25,11 +26,11 @@
     text-decoration: none;
 
     &:link {
-      color: $font-color;
+      color: $primary-color-font;
     }
 
     &:visited {
-      color: $font-color;
+      color: $primary-color-font;
     }
 
     &:hover {
@@ -51,6 +52,10 @@ html {
   @include box-sizing(inherit);
 }
 
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 
 .bars {
   @extend %fa-icon;
@@ -60,10 +65,5 @@ html {
     content: fa-content($fa-var-bars);
   }
 }
-
-
-
-
-
 
 

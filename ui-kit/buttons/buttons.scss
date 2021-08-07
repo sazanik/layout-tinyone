@@ -1,0 +1,36 @@
+@import '../../scss/style';
+
+.button {
+  margin: 5px;
+  display: block;
+  width: 140px;
+  height: 47px;
+  border: 2px solid $primary-color-font;
+  background-color: transparent;
+
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $primary-color-font;
+
+  &--primary {
+    width: 256px;
+    height: 56px;
+    font-size: 22px;
+  }
+
+  &--secondary {
+    width: 170px;
+    height: 51px;
+    border: none;
+    background-color: $primary-color-font;
+    color: #fff;
+  }
+
+  &--submit {
+    width: 135px;
+    height: 51px;
+    border: none;
+  }
+
+}

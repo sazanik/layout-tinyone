@@ -6153,4 +6153,34 @@ body {
   content: "";
 }
 
-/*# sourceMappingURL=style.css.map */
+.button {
+  margin: 5px;
+  display: block;
+  width: 140px;
+  height: 47px;
+  border: 2px solid #000;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+.button--primary {
+  width: 256px;
+  height: 56px;
+  font-size: 22px;
+}
+.button--secondary {
+  width: 170px;
+  height: 51px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+.button--submit {
+  width: 135px;
+  height: 51px;
+  border: none;
+}
+
+/*# sourceMappingURL=buttons.css.map */
