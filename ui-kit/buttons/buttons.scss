@@ -13,6 +13,8 @@
   text-transform: uppercase;
   color: $primary-color-font;
 
+  transition: all .2s ease-in-out;
+
   &--primary {
     width: 256px;
     height: 56px;
@@ -31,6 +33,12 @@
     width: 135px;
     height: 51px;
     border: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    opacity: .7;
+    background: #ccc;
   }
 
 }

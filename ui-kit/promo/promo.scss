@@ -1,0 +1,27 @@
+@import "../../scss/style.css";
+@import "../../scss/style.scss";
+
+.promo {
+  @include links;
+  padding: 20px;
+  background-color: $accent-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  &__title {
+    max-width: 492px;
+    min-height: 45px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__desc {
+    max-width: 492px;
+    min-width: 75px;
+    line-height: 24px;
+    text-align: center;
+  }
+}

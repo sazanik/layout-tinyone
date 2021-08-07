@@ -48,22 +48,38 @@ html {
   @include box-sizing(border-box);
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 *, *::after, *::before {
   @include box-sizing(inherit);
+  list-style-type: none;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+  .main-screen {
+    @include links;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-.bars {
-  @extend %fa-icon;
-  @extend .fas;
+    background-color: $accent-color;
 
-  &:before {
-    content: fa-content($fa-var-bars);
+    .link-down {
+      font-size: 32px;
+      align-self: center;
+    }
   }
-}
+
+
 
 

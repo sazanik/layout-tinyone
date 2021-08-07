@@ -5,132 +5,63 @@
   <meta name="description" content="tinyone description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="scss/style.css">
+  <link rel="stylesheet" href="ui-kit/page-header/page-header.css">
+  <link rel="stylesheet" href="ui-kit/promo/promo.css">
+  <link rel="stylesheet" href="ui-kit/buttons/buttons.css">
+  <link rel="stylesheet" href="ui-kit/cards/cards.css">
+  
+  <link rel="stylesheet" href="ui-kit/price/price.css">
   <title>tinyone</title>
 </head>
 
 <body class="page">
 
+<div class="main-screen">
+  <header class="page__header page-header">
+    <a href="#" class="page-header__menu">
+      <i class="fas fa-bars"></i>
+    </a>
+    <a href="#" class="page-header__logo-link">
+      <img class="page-header__logo-img" src="images/logo.png" alt="logo">
+    </a>
+    <ul class="page-header__social">
+      <li class="page-header__item">
+        <a href="#" class="page-header__link">
+          <i class="fab fa-facebook-f"></i>
+        </a></li>
+      <li class="page-header__item">
+        <a href="#" class="page-header__link">
+          <i class="fab fa-twitter"></i>
+        </a></li>
+      <li class="page-header__item">
+        <a href="#" class="page-header__link">
+          <i class="fab fa-google-plus-g"></i>
+        </a></li>
+      <li class="page-header__item">
+        <a href="#" class="page-header__link">
+          <i class="fab fa-pinterest"></i>
+        </a></li>
+    </ul>
+  </header>
 
+  <section class="promo">
+    <h1 class="promo__title">Inspire your inspiration</h1>
+    <p class="promo__desc">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Praesent vitae eros eget tellus tristique bibendum.
+      Donec rutrum sed sem quis venenatis.
+    </p>
+    <button class="promo__button button button--primary">Get start</button>
+  </section>
 
+  <a class="link-down" href="#">
+    <i class="fas fa-long-arrow-alt-down"></i>
+  </a>
+
+</div>
 
 
 <main class="page__content">
-  <section class="promo">
-    <div class="promo__content">
-      <h1 class="promo__title">Inspire your inspiration</h1>
-      <p class="promo__desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Praesent vitae eros eget tellus tristique bibendum.
-        Donec rutrum sed sem quis venenatis.
-      </p>
-      <button class="promo__button button button--large">Get start</button>
-      <a class="promo__link-down" href="#">
-        <i class="fas fa-long-arrow-alt-down"></i>
-      </a>
-    </div>
-  </section>
-
-  <section class="features section">
-
-    <header class="features__header section__header header">
-      <h2 class="header__title">Tinyone features</h2>
-      <p class="header__desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Praesent vitae eros eget tellus
-        tristique bibendum. Donec rutrum sed sem quis venenatis.
-      </p>
-    </header>
-
-    <div class="features__content section__content">
-
-      <div class="features-card card card--vertical">
-
-        <div class="features-card__wrapper-img card__wrapper-img">
-          <i class="features-card__img fas fa-tablet-alt"></i>
-        </div>
-
-        <div class="features-card__wrapper-text card__wrapper-text">
-          <h3 class="features-card__title">Fully Responsive</h3>
-          <p class="features-card__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
-          </p>
-        </div>
-      </div>
-
-      <div class="features-card card card--vertical">
-        <i class="features-card__img far fa-lemon"></i>
-        <h3 class="features-card__title">Fully Layered PSD</h3>
-        <p class="features-card__desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
-        </p>
-      </div>
-
-      <div class="features-card card card--vertical">
-        <i class="features-card__img far fa-folder"></i>
-        <h3 class="features-card__title">Font Awesome Icons</h3>
-        <p class="features-card__desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique
-          bibendum.
-        </p>
-      </div>
-
-      <div class="features-card card card--vertical">
-        <i class="features-card__img fas fa-code"></i>
-        <h3 class="features-card__title">HTML5 & CSS3</h3>
-        <p class="features-card__desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique
-          bibendum.
-        </p>
-      </div>
-
-      <div class="features-card card card--vertical">
-        <i class="features-card__img far fa-envelope"></i>
-        <h3 class="features-card__title">Email Template</h3>
-        <p class="features-card__desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique
-          bibendum.
-        </p>
-      </div>
-
-      <div class="features-card card card--vertical">
-        <i class="features-card__img far fa-bookmark"></i>
-        <h3 class="features-card__title">Free to download</h3>
-        <p class="features-card__desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique
-          bibendum.
-        </p>
-      </div>
-
-    </div>
-  </section>
-
-
-  <section class="pricing section">
-    <header class="pricing__header section__header header">
-      <h2 class="header__title">Pricing And Free Trial</h2>
-      <p class="header__desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Praesent vitae eros eget tellus
-        tristique bibendum. Donec rutrum sed sem quis venenatis.
-      </p>
-    </header>
-
-    <div class="pricing__content section__content">
-
-      <div class="pricing-card card">
-        <div class="pricing-card__wrapper-img">
-          <i class="features-card__img fas fa-tablet-alt"></i>
-        </div>
-        <h3 class="pricing-card__title">Free to download</h3>
-        <p class="pricing-card__desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique
-          bibendum.
-        </p>
-      </div>
-
-    </div>
-
-  </section>
 
 
 </main>

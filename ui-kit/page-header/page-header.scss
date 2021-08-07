@@ -1,2 +1,48 @@
-@import "../../scss/style";
+@import "../../scss/style.css";
+@import "../../scss/style.scss";
 
+
+@media screen and (max-width: 720px) {
+
+  .page-header {
+    @include links;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    &__menu {
+      display: none;
+    }
+
+    &__social {
+      display: none;
+    }
+  }
+}
+
+@media(min-width: 721px) {
+  .page-header {
+    @include links;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    &__menu {
+      font-size: 22px;
+    }
+
+    &__social {
+      display: flex;
+      width: 130px;
+      height: 24px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__item {
+      font-size: 22px;
+    }
+  }
+}
