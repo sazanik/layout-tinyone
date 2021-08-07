@@ -6153,6 +6153,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: #fcdb00;
+  margin-bottom: 30px;
 }
 .main-screen a {
   -webkit-transition: all ease 0.1s;
