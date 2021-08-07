@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="scss/style.css">
   <link rel="stylesheet" href="ui-kit/page-header/page-header.css">
-  <link rel="stylesheet" href="ui-kit/sections/sections.css">
+  <link rel="stylesheet" href="ui-kit/section/section.css">
   <link rel="stylesheet" href="ui-kit/promo/promo.css">
   <link rel="stylesheet" href="ui-kit/buttons/buttons.css">
+  <link rel="stylesheet" href="ui-kit/price/price.css">
   <link rel="stylesheet" href="ui-kit/features-card/features-card.css">
+  <link rel="stylesheet" href="ui-kit/pricing-card/pricing-card.css">
 
   <link rel="stylesheet" href="ui-kit/price/price.css">
   <title>tinyone</title>
@@ -73,12 +75,10 @@
     </p>
 
     <div class="section__content">
-
       <div class="features-card">
         <div class="features-card__wrapper-img">
           <i class="features-card__img far fa-lemon"></i>
         </div>
-
         <div class="features-card__wrapper-text">
           <h3 class="features-card__title">Fully Layered PSD</h3>
           <p class="features-card__desc">
@@ -137,6 +137,75 @@
       </div>
     </div>
 
+  </section>
+
+  <section class="section pricing">
+
+    <h2 class="section__title">Pricing And Free Trial</h2>
+    <p class="section__desc">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Praesent vitae eros eget tellus
+      tristique bibendum. Donec rutrum sed sem quis venenatis.
+    </p>
+    <div class="section__content">
+
+      <div class="pricing-card">
+        <div class="pricing-card__wrapper-img">
+          <i class="fas fa-tablet-alt"></i>
+        </div>
+        <div class="pricing-card__wrapper-text">
+          <h3 class="pricing-card__title">Basic</h3>
+          <p class="pricing-card__desc">
+            Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit
+          </p>
+        </div>
+        <div class="pricing-card__wrapper-price price">
+          <span class="price__value">free</span>
+          <div class="price__line"></div>
+          <span class="price__period">free forever</span>
+          <button class="button__price button">get free now</button>
+        </div>
+      </div>
+
+      <div class="pricing-card">
+        <div class="pricing-card__wrapper-img pricing-card__wrapper-img--reverse">
+          <i class="fas fa-laptop"></i>
+        </div>
+        <div class="pricing-card__wrapper-text">
+          <h3 class="pricing-card__title">Standard</h3>
+          <p class="pricing-card__desc">
+            Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit
+          </p>
+        </div>
+        <div class="pricing-card__wrapper-price price">
+          <span class="price__value">$99</span>
+          <div class="price__line"></div>
+          <span class="price__period">month</span>
+          <button class="button__price button">upgrade</button>
+        </div>
+      </div>
+
+      <div class="pricing-card">
+        <div class="pricing-card__wrapper-img">
+          <i class="fas fa-desktop"></i>
+        </div>
+        <div class="pricing-card__wrapper-text">
+          <h3 class="pricing-card__title">Enterprise</h3>
+          <p class="pricing-card__desc">
+            Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit
+          </p>
+        </div>
+        <div class="pricing-card__wrapper-price price">
+          <span class="price__value">$199</span>
+          <div class="price__line"></div>
+          <span class="price__period">free forever</span>
+          <button class="button__price button">get free now</button>
+        </div>
+      </div>
+    </div>
   </section>
 
 </main>

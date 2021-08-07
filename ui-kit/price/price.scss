@@ -1,4 +1,5 @@
-@import '../../scss/style';
+@import "../../scss/style.css";
+@import "../../scss/style.scss";
 
 .price {
   display: flex;
@@ -7,21 +8,23 @@
   align-items: center;
 
   &__value {
+    margin-bottom: 6px;
     font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
   }
 
   &__line {
+    margin-bottom: 6px;
     width: 50px;
     height: 2px;
     background-color: $primary-color-font;
   }
 
   &__period {
+    margin-bottom: 20px;
     font-size: 16px;
     color: $secondary-color-font;
   }
-
 }
 

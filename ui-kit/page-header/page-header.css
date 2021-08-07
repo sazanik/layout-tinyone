@@ -6241,6 +6241,7 @@ body {
     color: red;
   }
   .page-header__menu {
+    width: 130px;
     font-size: 22px;
   }
   .page-header__social {

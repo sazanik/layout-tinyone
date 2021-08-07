@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "../../scss/style.css";
 @import "../css/normalize.css";
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
@@ -6185,16 +6186,19 @@ body {
   align-items: center;
 }
 .price__value {
+  margin-bottom: 6px;
   font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
 }
 .price__line {
+  margin-bottom: 6px;
   width: 50px;
   height: 2px;
   background-color: #000;
 }
 .price__period {
+  margin-bottom: 20px;
   font-size: 16px;
   color: #898989;
 }
