@@ -6135,6 +6135,8 @@ ul {
   -moz-box-sizing: inherit;
   box-sizing: inherit;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
