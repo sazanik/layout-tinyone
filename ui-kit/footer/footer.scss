@@ -15,6 +15,7 @@
   .newsletter-form {
     max-width: 597px;
     display: flex;
+    justify-content: space-between;
     text-align: center;
 
     &__email {

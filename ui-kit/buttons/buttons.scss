@@ -14,8 +14,8 @@
   font-weight: 700;
   text-transform: uppercase;
   color: $primary-color-font;
+  @include transition(all ease, .2s);
 
-  transition: all .2s ease-in-out;
   &:hover {
     cursor: pointer;
     color: #fff;
@@ -26,8 +26,9 @@
     width: 256px;
     height: 56px;
     font-size: 22px;
+
     &:hover {
-      color:$accent-color;
+      color: $accent-color;
       background-color: $primary-color-font;
     }
   }
@@ -38,9 +39,11 @@
     border: none;
     background-color: $primary-color-font;
     color: #fff;
+
     &:hover {
-      color: $primary-color-font;
+      border: 2px solid $primary-color-font;
       background-color: #fff;
+      color: $primary-color-font;
     }
   }
 

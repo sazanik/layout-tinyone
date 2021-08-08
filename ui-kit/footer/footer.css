@@ -6197,6 +6197,7 @@ body {
 .footer .newsletter-form {
   max-width: 597px;
   display: flex;
+  justify-content: space-between;
   text-align: center;
 }
 .footer .newsletter-form__email {
