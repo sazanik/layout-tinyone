@@ -1,0 +1,67 @@
+@import "../../scss/style.css";
+.person-card {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.person-card a {
+  -webkit-transition: all ease 0.1s;
+  -moz-transition: all ease 0.1s;
+  -ms-transition: all ease 0.1s;
+  -o-transition: all ease 0.1s;
+  transition: all ease 0.1s;
+  text-decoration: none;
+}
+.person-card a:link {
+  color: #000;
+}
+.person-card a:visited {
+  color: #000;
+}
+.person-card a:hover {
+  opacity: 0.7;
+}
+.person-card a:active {
+  color: red;
+}
+.person-card__wrapper-img {
+  width: 128px;
+  height: 128px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.person-card__img {
+  max-width: 100%;
+  height: auto;
+}
+.person-card__name {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.person-card__position {
+  color: #898989;
+  margin-bottom: 14px;
+}
+.person-card__desc {
+  width: 200px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.person-card__social {
+  display: flex;
+  width: 62px;
+  height: 14px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=person-card.css.map */

@@ -1,0 +1,56 @@
+@import "../../scss/vars";
+@import "../../scss/my-mixins";
+@import "../../scss/style.css";
+
+.person-card {
+  @include links;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  &__wrapper-img {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  &__img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &__name {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+
+
+  &__position {
+    color: $secondary-color-font;
+    margin-bottom: 14px;
+  }
+
+  &__desc {
+    width: 200px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__social {
+    display: flex;
+    width: 62px;
+    height: 14px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+}
