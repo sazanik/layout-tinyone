@@ -1,0 +1,38 @@
+@import './vars';
+
+@mixin box-sizing($prop) {
+  -webkit-box-sizing: $prop;
+  -moz-box-sizing: $prop;
+  box-sizing: $prop;
+}
+
+@mixin transition($prop, $time) {
+  -webkit-transition: $prop $time;
+  -moz-transition: $prop $time;
+  -ms-transition: $prop $time;
+  -o-transition: $prop $time;
+  transition: $prop $time;
+}
+
+@mixin links {
+  a {
+    @include transition(all ease, .1s);
+    text-decoration: none;
+
+    &:link {
+      color: $primary-color-font;
+    }
+
+    &:visited {
+      color: $primary-color-font;
+    }
+
+    &:hover {
+      opacity: .7;
+    }
+
+    &:active {
+      color: red;
+    }
+  }
+}

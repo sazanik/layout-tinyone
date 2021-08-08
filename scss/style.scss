@@ -1,47 +1,11 @@
 @import "../css/normalize.css";
-@import 'vars.scss';
+@import "./vars";
+@import "./my-mixins";
 @import "fontawesome";
 @import "regular";
 @import "brands";
 @import "solid";
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
-
-@mixin box-sizing($prop) {
-  -webkit-box-sizing: $prop;
-  -moz-box-sizing: $prop;
-  box-sizing: $prop;
-}
-
-@mixin transition($prop, $time) {
-  -webkit-transition: $prop $time;
-  -moz-transition: $prop $time;
-  -ms-transition: $prop $time;
-  -o-transition: $prop $time;
-  transition: $prop $time;
-}
-
-@mixin links {
-  a {
-    @include transition(all ease, .1s);
-    text-decoration: none;
-
-    &:link {
-      color: $primary-color-font;
-    }
-
-    &:visited {
-      color: $primary-color-font;
-    }
-
-    &:hover {
-      opacity: .7;
-    }
-
-    &:active {
-      color: red;
-    }
-  }
-}
 
 
 html {
@@ -67,21 +31,22 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-  .main-screen {
-    @include links;
-    height: 100vh;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: $accent-color;
-    margin-bottom: 30px;
+.main-screen {
+  @include links;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $accent-color;
+  margin-bottom: 30px;
 
-    .link-down {
-      font-size: 32px;
-      align-self: center;
-    }
+  .link-down {
+    font-size: 32px;
+    align-self: center;
   }
+}
+
 
 
 
