@@ -1,6 +1,7 @@
 @import "../../scss/vars";
+@import "../../scss/fonts";
 @import "../../scss/my-mixins";
-
+@import "../../scss/style";
 .pricing-card {
   display: flex;
   flex-direction: column;
@@ -42,8 +43,6 @@
     color: $secondary-color-font;
     text-align: center;
   }
-
-
 
 
 }

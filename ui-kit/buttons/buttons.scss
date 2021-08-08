@@ -1,8 +1,9 @@
 @import "../../scss/vars";
+@import "../../scss/fonts";
 @import "../../scss/my-mixins";
+@import "../../scss/style";
 
 .button {
-  margin: 5px;
   display: block;
   width: 140px;
   height: 47px;
@@ -47,6 +48,7 @@
     width: 135px;
     height: 51px;
     border: none;
+    background-color: #fff;
   }
 
 }

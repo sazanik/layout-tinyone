@@ -1,11 +1,11 @@
 @import "../css/normalize.css";
+@import "fonts";
 @import "./vars";
 @import "./my-mixins";
 @import "fontawesome";
 @import "regular";
 @import "brands";
 @import "solid";
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 
 
 html {
@@ -28,7 +28,6 @@ ul {
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .main-screen {

@@ -1,10 +1,12 @@
 @import "../../scss/vars";
+@import "../../scss/fonts";
 @import "../../scss/my-mixins";
+@import "../../scss/style";
 
 
 @media screen and (max-width: 720px) {
 
-  .page-header {
+  .header {
     @include links;
     display: flex;
     justify-content: center;
@@ -22,7 +24,7 @@
 }
 
 @media(min-width: 721px) {
-  .page-header {
+  .header {
     @include links;
     display: flex;
     justify-content: space-between;

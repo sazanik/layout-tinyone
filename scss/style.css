@@ -1,10 +1,14 @@
 @charset "UTF-8";
 @import "../css/normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
 .fa,
 .fas,
 .far,
@@ -6142,7 +6146,6 @@ ul {
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Source Sans Pro", sans-serif;
 }
 
 .main-screen {

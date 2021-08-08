@@ -1,6 +1,7 @@
 @import "../../scss/vars";
+@import "../../scss/fonts";
 @import "../../scss/my-mixins";
-@import "../buttons/buttons";
+@import "../../scss/style";
 
 .form {
   max-width: 484px;
@@ -12,8 +13,6 @@
     padding: 10px;
     margin-bottom: 25px;
     border: 2px solid #000;
-
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     line-height: 20px;
   }

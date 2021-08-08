@@ -1,6 +1,7 @@
 @import "../../scss/vars";
+@import "../../scss/fonts";
 @import "../../scss/my-mixins";
-@import "../../scss/style.css";
+@import "../../scss/style";
 
 
 .testimonial {
@@ -53,20 +54,23 @@
     .quote-right {
       display: none;
     }
+  }
+}
 
-    @media screen and (min-width: 720px) {
-      .quote-left {
-        position: absolute;
-        left: -50px;
-      }
 
-      .quote-right {
-        position: absolute;
-        right: -50px;
-      }
-
+@media (min-width: 720px) {
+  .testimonial {
+    .quote-left {
+      display: inline-block;
+      position: absolute;
+      left: -50px;
     }
 
+    .quote-right {
+      display: inline-block;
+      position: absolute;
+      right: -50px;
+    }
   }
 }
 
