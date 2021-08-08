@@ -4,18 +4,20 @@
   <meta charset="UTF-8">
   <meta name="description" content="tinyone description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="scss/style.css">
-  <link rel="stylesheet" href="ui-kit/page-header/page-header.css">
-  <link rel="stylesheet" href="ui-kit/section/section.css">
-  <link rel="stylesheet" href="ui-kit/promo/promo.css">
-  <link rel="stylesheet" href="ui-kit/buttons/buttons.css">
-  <link rel="stylesheet" href="ui-kit/price/price.css">
-  <link rel="stylesheet" href="ui-kit/feature-card/feature-card.css">
-  <link rel="stylesheet" href="ui-kit/price-card/price-card.css">
-  <link rel="stylesheet" href="ui-kit/work-card/work-card.css">
-  <link rel="stylesheet" href="ui-kit/person-card/person-card.css">
-  <link rel="stylesheet" href="ui-kit/stats-card/stats-card.css">
-  <link rel="stylesheet" href="ui-kit/testimonial/testimonial.css">
+  <link rel="stylesheet" href="./scss/style.css">
+  <link rel="stylesheet" href="./ui-kit/page-header/page-header.css">
+  <link rel="stylesheet" href="./ui-kit/section/section.css">
+  <link rel="stylesheet" href="./ui-kit/promo/promo.css">
+  <link rel="stylesheet" href="./ui-kit/buttons/buttons.css">
+  <link rel="stylesheet" href="./ui-kit/price/price.css">
+  <link rel="stylesheet" href="./ui-kit/feature-card/feature-card.css">
+  <link rel="stylesheet" href="./ui-kit/price-card/price-card.css">
+  <link rel="stylesheet" href="./ui-kit/work-card/work-card.css">
+  <link rel="stylesheet" href="./ui-kit/person-card/person-card.css">
+  <link rel="stylesheet" href="./ui-kit/stats-card/stats-card.css">
+  <link rel="stylesheet" href="./ui-kit/testimonial/testimonial.css">
+  <link rel="stylesheet" href="./ui-kit/contact-card/contact-card.css">
+  <link rel="stylesheet" href="./ui-kit/form/form.css">
   <title>tinyone</title>
 </head>
 
@@ -521,11 +523,62 @@
       <div class="testimonial__wrapper-text">
         <h3 class="testimonial__name">John Doe</h3>
         <p class="testimonial__position">From Wỏdpress</p>
-        <p class="testimonial__desc"><i class="quote-left fas fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.<i class="quote-right fas fa-quote-right"></i></p>
+        <p class="testimonial__desc"><i class="quote-left fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. <i class="quote-right fas fa-quote-right"></i></p>
       </div>
     </article>
-
   </section>
+
+  <section class="section contacts">
+    <h2 class="section__title">Keep in touch with us</h2>
+    <p class="section__desc">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Praesent vitae eros eget tellus
+      tristique bibendum. Donec rutrum sed sem quis venenatis.
+    </p>
+
+    <div class="section__content">
+      <div class="contact-card">
+        <div class="contact-card__wrapper-img">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="contact-card__wrapper-text">
+          <p class="contact-card__key">Address</p>
+          <p class="contact-card__value">66, Dang Van ngu, Dong Da, Ha noi, Vietnam</p>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-card__wrapper-img">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="contact-card__wrapper-text">
+          <p class="contact-card__key">E-mail</p>
+          <p class="contact-card__value">contact@halovietnam.com</p>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-card__wrapper-img">
+          <i class="fas fa-phone-square-alt"></i>
+        </div>
+        <div class="contact-card__wrapper-text">
+          <p class="contact-card__key">Phone</p>
+          <p class="contact-card__value">+844 1234 56789</p>
+        </div>
+      </div>
+
+      <form class="form" action="/" method="post">
+        <input class="form__email" type="email" name="email" placeholder="Email">
+        <input class="form__name" type="email" name="name" placeholder="Full name">
+        <textarea class="form__message" name="message" placeholder="Message"></textarea>
+        <input class="form__button button button--secondary" type="submit" value="send message">
+      </form>
+
+    </div>
+  </section>
+
+
+
 
 </main>
 

@@ -37,6 +37,10 @@
     border: none;
     background-color: $primary-color-font;
     color: #fff;
+    &:hover {
+      color: $primary-color-font;
+      background-color: #fff;
+    }
   }
 
   &--submit {

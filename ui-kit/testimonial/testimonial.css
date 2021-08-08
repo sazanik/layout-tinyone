@@ -39,12 +39,20 @@
   color: #898989;
 }
 .testimonial__desc .quote-left {
-  position: absolute;
-  left: -50px;
+  display: none;
 }
 .testimonial__desc .quote-right {
-  position: absolute;
-  right: -50px;
+  display: none;
+}
+@media screen and (min-width: 720px) {
+  .testimonial__desc .quote-left {
+    position: absolute;
+    left: -50px;
+  }
+  .testimonial__desc .quote-right {
+    position: absolute;
+    right: -50px;
+  }
 }
 
 /*# sourceMappingURL=testimonial.css.map */

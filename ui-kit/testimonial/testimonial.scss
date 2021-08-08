@@ -2,6 +2,7 @@
 @import "../../scss/my-mixins";
 @import "../../scss/style.css";
 
+
 .testimonial {
   margin-bottom: 40px;
   display: flex;
@@ -46,14 +47,27 @@
     color: $secondary-color-font;
 
     .quote-left {
-      position: absolute;
-      left: -50px;
+      display: none;
     }
 
     .quote-right {
-      position: absolute;
-      right: -50px;
+      display: none;
+    }
+
+    @media screen and (min-width: 720px) {
+      .quote-left {
+        position: absolute;
+        left: -50px;
+      }
+
+      .quote-right {
+        position: absolute;
+        right: -50px;
+      }
+
     }
 
   }
 }
+
+

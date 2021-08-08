@@ -1,0 +1,30 @@
+@import "../../scss/vars";
+@import "../../scss/my-mixins";
+@import "../../scss/style.css";
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+
+  &__wrapper-img {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  &__key {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  &__value {
+    width: 162px;
+    height: 31px;
+    font-size: 14px;
+    line-height: 16px;
+    color: $secondary-color-font;
+  }
+
+}
