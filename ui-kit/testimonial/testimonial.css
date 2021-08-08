@@ -1,0 +1,50 @@
+@import "../../scss/style.css";
+.testimonial {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.testimonial__wrapper-img {
+  width: 104px;
+  height: 104px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.testimonial__img {
+  max-width: 100%;
+  height: auto;
+}
+.testimonial__name {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.testimonial__position {
+  font-size: 16px;
+  line-height: 20px;
+  color: #898989;
+  margin-bottom: 14px;
+}
+.testimonial__desc {
+  position: relative;
+  max-width: 535px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #898989;
+}
+.testimonial__desc .quote-left {
+  position: absolute;
+  left: -50px;
+}
+.testimonial__desc .quote-right {
+  position: absolute;
+  right: -50px;
+}
+
+/*# sourceMappingURL=testimonial.css.map */

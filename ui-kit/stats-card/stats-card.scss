@@ -1,0 +1,29 @@
+@import "../../scss/vars";
+@import "../../scss/my-mixins";
+@import "../../scss/style.css";
+
+.stats-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+
+  &__wrapper-img {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  &__value {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+
+  &__key {
+    font-size: 14px;
+    line-height: 16px;
+    color: $secondary-color-font;
+  }
+
+}

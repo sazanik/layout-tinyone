@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="ui-kit/price-card/price-card.css">
   <link rel="stylesheet" href="ui-kit/work-card/work-card.css">
   <link rel="stylesheet" href="ui-kit/person-card/person-card.css">
+  <link rel="stylesheet" href="ui-kit/stats-card/stats-card.css">
+  <link rel="stylesheet" href="ui-kit/testimonial/testimonial.css">
   <title>tinyone</title>
 </head>
 
@@ -340,18 +342,17 @@
   </section>
 
   <section class="section team">
-
     <h2 class="section__title">Our team</h2>
     <p class="section__desc">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Praesent vitae eros eget tellus
       tristique bibendum. Donec rutrum sed sem quis venenatis.
     </p>
+
     <div class="section__content">
-
       <div class="person-card">
         <div class="person-card__wrapper-img">
-          <img src="./images/team/1.png" alt="photo">
+          <img class="person-card__img" src="./images/team/1.png" alt="photo">
         </div>
         <div class="person-card__wrapper-text">
           <h3 class="person-card__name">John Doe</h3>
@@ -379,7 +380,7 @@
 
       <div class="person-card">
         <div class="person-card__wrapper-img">
-          <img src="./images/team/2.png" alt="photo">
+          <img class="person-card__img" src="./images/team/2.png" alt="photo">
         </div>
         <div class="person-card__wrapper-text">
           <h3 class="person-card__name">John Doe</h3>
@@ -407,7 +408,7 @@
 
       <div class="person-card">
         <div class="person-card__wrapper-img">
-          <img src="./images/team/3.png" alt="photo">
+          <img class="person-card__img" src="./images/team/3.png" alt="photo">
         </div>
         <div class="person-card__wrapper-text">
           <h3 class="person-card__name">John Doe</h3>
@@ -435,7 +436,7 @@
 
       <div class="person-card">
         <div class="person-card__wrapper-img">
-          <img src="./images/team/4.png" alt="photo">
+          <img class="person-card__img" src="./images/team/4.png" alt="photo">
         </div>
         <div class="person-card__wrapper-text">
           <h3 class="person-card__name">John Doe</h3>
@@ -461,6 +462,68 @@
         </ul>
       </div>
     </div>
+  </section>
+
+  <section class="section stats">
+    <h2 class="section__title">Stats & Testimonial</h2>
+    <p class="section__desc">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Praesent vitae eros eget tellus
+      tristique bibendum. Donec rutrum sed sem quis venenatis.
+    </p>
+    <div class="section__content">
+
+      <div class="stats-card">
+        <div class="stats-card__wrapper-img">
+          <i class="fas fa-puzzle-piece"></i>
+        </div>
+        <div class="stats-card__wrapper-text">
+          <p class="stats-card__value">20</p>
+          <p class="stats-card__key">Products</p>
+        </div>
+      </div>
+
+      <div class="stats-card">
+        <div class="stats-card__wrapper-img">
+          <i class="fas fa-cloud-download-alt"></i>
+        </div>
+        <div class="stats-card__wrapper-text">
+          <p class="stats-card__value">120,000</p>
+          <p class="stats-card__key">Downloads</p>
+        </div>
+      </div>
+
+      <div class="stats-card">
+        <div class="stats-card__wrapper-img">
+          <i class="fas fa-users"></i>
+        </div>
+        <div class="stats-card__wrapper-text">
+          <p class="stats-card__value">1200</p>
+          <p class="stats-card__key">Customers</p>
+        </div>
+      </div>
+
+      <div class="stats-card">
+        <div class="stats-card__wrapper-img">
+          <i class="fas fa-thumbs-up"></i>
+        </div>
+        <div class="stats-card__wrapper-text">
+          <p class="stats-card__value">900</p>
+          <p class="stats-card__key">Like</p>
+        </div>
+      </div>
+    </div>
+
+    <article class="testimonial">
+      <div class="testimonial__wrapper-img">
+        <img class="testimonial__img" src="./images/team/1.png" alt="photo">
+      </div>
+      <div class="testimonial__wrapper-text">
+        <h3 class="testimonial__name">John Doe</h3>
+        <p class="testimonial__position">From Wỏdpress</p>
+        <p class="testimonial__desc"><i class="quote-left fas fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.<i class="quote-right fas fa-quote-right"></i></p>
+      </div>
+    </article>
 
   </section>
 
