@@ -12,9 +12,8 @@ html {
   @include box-sizing(border-box);
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+body {
+  min-width: 320px;
 }
 
 *, *::after, *::before {
@@ -22,34 +21,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.wrapper {
-  margin: 0 auto;
-  max-width: 940px;
-}
-
-.main-screen {
-  @include links;
-  height: 100vh;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: $accent-color;
-  margin-bottom: 30px;
-
-  .link-down {
-    font-size: 32px;
-    align-self: center;
-  }
-}
 
 
 

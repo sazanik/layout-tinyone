@@ -1,0 +1,11 @@
+@import "../../scss/vars";
+@import "../../scss/fonts";
+@import "../../scss/my-mixins";
+@import "../../scss/style";
+
+.wrapper {
+  max-width: 1000px;
+  padding: 0 30px;
+  margin: 0 auto;
+
+}

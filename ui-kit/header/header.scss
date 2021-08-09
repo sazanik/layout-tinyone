@@ -4,10 +4,12 @@
 @import "../../scss/style";
 
 
-@media screen and (max-width: 720px) {
+/*@media screen and (max-width: 720px) {
 
-  .header {
+ .header {
     @include links;
+    max-width: 1000px;
+    padding: 0 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,31 +23,33 @@
       display: none;
     }
   }
-}
+}*/
 
-@media(min-width: 721px) {
-  .header {
-    @include links;
+.header {
+  @include links;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+
+  &__menu {
+    width: 130px;
+    font-size: 22px;
+  }
+
+  &__social {
     display: flex;
-    justify-content: space-between;
+    width: 130px;
+    height: 24px;
     align-items: center;
-    height: 100px;
+    justify-content: space-between;
+  }
 
-    &__menu {
-      width: 130px;
-      font-size: 22px;
-    }
-
-    &__social {
-      display: flex;
-      width: 130px;
-      height: 24px;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    &__item {
-      font-size: 22px;
-    }
+  &__item {
+    font-size: 22px;
   }
 }

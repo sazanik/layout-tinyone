@@ -6129,11 +6129,6 @@ html {
   box-sizing: border-box;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 *, *::after, *::before {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
@@ -6143,17 +6138,15 @@ ul {
   padding: 0;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
+.wrapper {
+  max-width: 1000px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
 
 .main-screen {
   height: 100vh;
-  padding: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   background-color: #fcdb00;
   margin-bottom: 30px;
 }

@@ -6134,9 +6134,8 @@ html {
   box-sizing: border-box;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+body {
+  min-width: 320px;
 }
 
 *, *::after, *::before {
@@ -6146,50 +6145,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.wrapper {
-  margin: 0 auto;
-  max-width: 940px;
-}
-
-.main-screen {
-  height: 100vh;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #fcdb00;
-  margin-bottom: 30px;
-}
-.main-screen a {
-  -webkit-transition: all ease 0.1s;
-  -moz-transition: all ease 0.1s;
-  -ms-transition: all ease 0.1s;
-  -o-transition: all ease 0.1s;
-  transition: all ease 0.1s;
-  text-decoration: none;
-}
-.main-screen a:link {
-  color: #000;
-}
-.main-screen a:visited {
-  color: #000;
-}
-.main-screen a:hover {
-  opacity: 0.7;
-}
-.main-screen a:active {
-  color: red;
-}
-.main-screen .link-down {
-  font-size: 32px;
-  align-self: center;
 }
 
 .features-card {
