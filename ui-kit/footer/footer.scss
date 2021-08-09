@@ -7,6 +7,14 @@
 .footer {
   background-color: $primary-color-font;
   padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .section {
+    margin-bottom: 20px;
+  }
 
   .section__title {
     color: #fff;
@@ -30,6 +38,43 @@
       line-height: 20px;
     }
   }
+
+
+  &__column {
+    @include links-alt;
+    width: 180px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .contacts {
+    margin-bottom: 30px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    padding: 10px;
+    flex-wrap: wrap;
+
+  }
+
+  .nav-column {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+    &__column {
+
+    }
+
+  }
+
+
 }
 
 

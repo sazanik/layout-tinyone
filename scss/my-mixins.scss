@@ -36,3 +36,26 @@
     }
   }
 }
+
+@mixin links-alt {
+  a {
+    @include transition(all ease, .1s);
+    text-decoration: none;
+
+    &:link {
+      color: #fff;
+    }
+
+    &:visited {
+      color: #fff;
+    }
+
+    &:hover {
+      opacity: .7;
+    }
+
+    &:active {
+      color: red;
+    }
+  }
+}
