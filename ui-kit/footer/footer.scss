@@ -6,15 +6,12 @@
 
 .footer {
   background-color: $primary-color-font;
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 50px 20px;
 
   .section {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
+
 
   .section__title {
     color: #fff;
@@ -36,14 +33,15 @@
       margin-bottom: 25px;
       font-size: 16px;
       line-height: 20px;
+      font-weight: 400;
     }
   }
 
 
   &__column {
     @include links-alt;
-    width: 180px;
-    margin-bottom: 10px;
+    width: 190px;
+    margin: 20px;
     font-size: 16px;
     line-height: 20px;
     color: #fff;
@@ -55,15 +53,16 @@
   }
 
   &__nav {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
-    padding: 10px;
+
     flex-wrap: wrap;
 
   }
 
   .nav-column {
+
     display: flex;
     flex-direction: column;
     width: auto;

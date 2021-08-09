@@ -6153,6 +6153,11 @@ body {
   flex-direction: column;
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
 .main-screen {
   height: 100vh;
   padding: 20px;
@@ -6188,6 +6193,7 @@ body {
 }
 
 .form {
+  margin: 0 auto;
   max-width: 484px;
   text-align: center;
 }

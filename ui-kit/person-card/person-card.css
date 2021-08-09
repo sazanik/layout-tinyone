@@ -6153,6 +6153,11 @@ body {
   flex-direction: column;
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
 .main-screen {
   height: 100vh;
   padding: 20px;
@@ -6192,7 +6197,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 .person-card a {
   -webkit-transition: all ease 0.1s;

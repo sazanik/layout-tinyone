@@ -6153,6 +6153,11 @@ body {
   flex-direction: column;
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
 .main-screen {
   height: 100vh;
   padding: 20px;
@@ -6188,9 +6193,10 @@ body {
 }
 
 .features-card {
-  max-width: 300px;
   display: flex;
+  justify-content: center;
   margin-bottom: 30px;
+  text-align: left;
 }
 .features-card__wrapper-img {
   width: 50px;

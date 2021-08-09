@@ -4,9 +4,10 @@
 @import "../../scss/style";
 
 .features-card {
-  max-width: 300px;
   display: flex;
+  justify-content: center;
   margin-bottom: 30px;
+  text-align: left;
 
 
   &__wrapper-img {
