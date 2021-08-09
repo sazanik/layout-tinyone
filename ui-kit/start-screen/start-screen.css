@@ -6178,7 +6178,17 @@ body {
 }
 .start-screen .link-down {
   font-size: 32px;
-  margin-bottom: 30px;
+  margin-bottom: 53px;
+}
+
+@media screen and (min-width: 1400px) {
+  .start-screen {
+    height: 828px;
+  }
+
+  .link-down {
+    margin-right: 17px;
+  }
 }
 
 /*# sourceMappingURL=start-screen.css.map */

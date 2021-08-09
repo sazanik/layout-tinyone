@@ -6148,11 +6148,11 @@ body {
 }
 
 .promo {
+  max-width: 500px;
+  height: 235px;
+  margin: 0 auto;
+  text-align: center;
   background-color: #fcdb00;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 }
 .promo a {
   -webkit-transition: all ease 0.1s;
@@ -6175,9 +6175,8 @@ body {
   color: red;
 }
 .promo__title {
-  max-width: 500px;
+  max-width: 510px;
   min-height: 55px;
-  margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
   text-align: center;
@@ -6189,6 +6188,15 @@ body {
   font-size: 20px;
   line-height: 24px;
   text-align: center;
+}
+
+@media screen and (min-width: 1400px) {
+  .promo__title {
+    margin-right: 4px;
+  }
+  .promo__desc {
+    margin-right: 14px;
+  }
 }
 
 /*# sourceMappingURL=promo.css.map */

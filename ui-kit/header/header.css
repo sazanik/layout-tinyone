@@ -6182,6 +6182,7 @@ body {
 .header__menu {
   display: block;
   width: 126px;
+  margin-left: 8px;
   font-size: 22px;
 }
 @media screen and (max-width: 768px) {
@@ -6202,6 +6203,12 @@ body {
 }
 .header__item {
   font-size: 22px;
+}
+
+@media screen and (min-width: 1400px) {
+  .header__logo-link {
+    margin-right: 15px;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

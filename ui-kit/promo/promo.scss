@@ -5,16 +5,15 @@
 
 .promo {
   @include links;
+  max-width: 500px;
+  height: 235px;
+  margin: 0 auto;
+  text-align: center;
   background-color: $accent-color;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 
   &__title {
-    max-width: 500px;
+    max-width: 510px;
     min-height: 55px;
-    margin-bottom: 20px;
     font-size: 48px;
     font-weight: 700;
     text-align: center;
@@ -27,5 +26,21 @@
     font-size: 20px;
     line-height: 24px;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .promo {
+    &__title {
+      margin-right: 4px;
+    }
+
+    &__desc {
+      margin-right: 14px;
+    }
+
+    &__button {
+
+    }
   }
 }
