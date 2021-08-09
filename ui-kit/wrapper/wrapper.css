@@ -6149,8 +6149,9 @@ body {
 
 .wrapper {
   max-width: 1000px;
-  padding: 0 30px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 30px;
 }
 
 /*# sourceMappingURL=wrapper.css.map */

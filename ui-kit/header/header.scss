@@ -4,47 +4,34 @@
 @import "../../scss/style";
 
 
-/*@media screen and (max-width: 720px) {
-
- .header {
-    @include links;
-    max-width: 1000px;
-    padding: 0 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-
-    &__menu {
-      display: none;
-    }
-
-    &__social {
-      display: none;
-    }
-  }
-}*/
-
 .header {
   @include links;
-  max-width: 1000px;
   width: 100%;
-  margin: 0 auto;
-  padding: 0 30px;
   display: flex;
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
   justify-content: space-between;
   align-items: center;
   height: 100px;
 
+
   &__menu {
-    width: 130px;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+    display: block;
+    width: 126px;
     font-size: 22px;
   }
 
+
   &__social {
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
     display: flex;
-    width: 130px;
-    height: 24px;
+    width: 126px;
     align-items: center;
     justify-content: space-between;
   }
