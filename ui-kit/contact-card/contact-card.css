@@ -6147,6 +6147,9 @@ body {
   padding: 0;
 }
 
+.contacts {
+  margin-bottom: 75px;
+}
 .contacts__desc {
   margin-bottom: 46px;
 }

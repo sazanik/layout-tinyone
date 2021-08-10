@@ -5,76 +5,99 @@
 
 
 .footer {
+  min-height: 772px;
+  padding-top: 92px;
   background-color: $primary-color-font;
-  padding: 50px 20px;
 
-  .section {
-    margin-bottom: 50px;
-  }
+  &__service-info {
 
+    margin: 0 auto;
 
-  .section__title {
-    color: #fff;
-  }
-
-  .newsletter-form {
-    max-width: 597px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-
-    &__email {
-      width: 100%;
-      height: 51px;
-      border: none;
-      outline: none;
-      padding: 10px;
-      margin-right: 5px;
-      margin-bottom: 25px;
-      font-size: 16px;
-      line-height: 20px;
-      font-weight: 400;
+    @media (max-width: 400px) {
+      padding: 0;
     }
+    padding: 0 15px;
+    display: flex;
+    @media (max-width: 829px) {
+      justify-content: space-evenly;
+    }
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 20px;
   }
-
 
   &__column {
     @include links-alt;
-    width: 190px;
-    margin: 20px;
     font-size: 16px;
     line-height: 20px;
     color: #fff;
     text-align: left;
   }
 
-  .contacts {
-    margin-bottom: 30px;
-  }
-
   &__nav {
-    margin: 0 auto;
+    max-width: 540px;
+    flex-basis: 100%;
     display: flex;
     justify-content: space-between;
-
     flex-wrap: wrap;
 
-  }
-
-  .nav-column {
-
-    display: flex;
-    flex-direction: column;
-    width: auto;
-
-    &__column {
-
+    &__item {
+      margin: 0 10px;
     }
+  }
+}
 
+.newsletter {
+  margin-bottom: 110px;
+
+  &__title {
+    color: #fff;
   }
 
+  &__desc {
+    margin-bottom: 40px;
+  }
+}
+
+.newsletter-form {
+  max-width: 740px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  &__email {
+    max-width: 597px;
+    width: 100%;
+    height: 51px;
+    margin-right: 6px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+
+.footer-contacts {
+  margin-right: 20px;
+  margin-bottom: 50px;
+
+  &__item {
+    max-width: 182px;
+  }
+}
+
+.nav-column {
+  display: flex;
+  flex-direction: column;
+  width: auto;
 
 }
+
+
 
 
 
