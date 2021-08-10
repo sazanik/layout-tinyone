@@ -6147,6 +6147,27 @@ body {
   padding: 0;
 }
 
+.stats {
+  margin-bottom: 208px;
+}
+.stats__desc {
+  margin-bottom: 50px;
+}
+.stats__content {
+  max-width: 580px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 50px;
+}
+@media (max-width: 1000px) {
+  .stats__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
 .stats-card {
   display: flex;
   flex-direction: column;
@@ -6155,7 +6176,7 @@ body {
   margin-bottom: 80px;
 }
 .stats-card__wrapper-img {
-  font-size: 48px;
+  font-size: 46px;
   margin-bottom: 10px;
 }
 .stats-card__value {

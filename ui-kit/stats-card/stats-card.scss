@@ -3,6 +3,30 @@
 @import "../../scss/my-mixins";
 @import "../../scss/style";
 
+
+.stats {
+
+  margin-bottom: 208px;
+
+  &__desc {
+    margin-bottom: 50px;
+  }
+
+  &__content {
+    max-width: 580px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 50px;
+
+    @media (max-width: 1000px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
+}
+
 .stats-card {
   display: flex;
   flex-direction: column;
@@ -11,7 +35,7 @@
   margin-bottom: 80px;
 
   &__wrapper-img {
-    font-size: 48px;
+    font-size: 46px;
     margin-bottom: 10px;
   }
 

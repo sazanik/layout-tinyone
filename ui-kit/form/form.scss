@@ -5,25 +5,26 @@
 
 .form {
   margin: 0 auto;
-  max-width: 484px;
+  max-width: 480px;
   text-align: center;
 
   &__email, &__name, &__message {
     width: 100%;
-    max-height: 59px;
-    padding: 10px;
+    height: 55px;
+    padding: 10px 12px;
     margin-bottom: 25px;
     border: 2px solid #000;
     font-size: 16px;
     line-height: 20px;
   }
 
-  &__message {
-    max-height: 207px;
-    height: 207px;
+  &__name {
+    margin-bottom: 22px;
   }
 
-  &__button {
-    margin: 0 auto;
+  &__message {
+    height: 207px;
+    margin-bottom: 21px;
+    padding: 13px;
   }
 }

@@ -6149,24 +6149,25 @@ body {
 
 .form {
   margin: 0 auto;
-  max-width: 484px;
+  max-width: 480px;
   text-align: center;
 }
 .form__email, .form__name, .form__message {
   width: 100%;
-  max-height: 59px;
-  padding: 10px;
+  height: 55px;
+  padding: 10px 12px;
   margin-bottom: 25px;
   border: 2px solid #000;
   font-size: 16px;
   line-height: 20px;
 }
-.form__message {
-  max-height: 207px;
-  height: 207px;
+.form__name {
+  margin-bottom: 22px;
 }
-.form__button {
-  margin: 0 auto;
+.form__message {
+  height: 207px;
+  margin-bottom: 21px;
+  padding: 13px;
 }
 
 /*# sourceMappingURL=form.css.map */

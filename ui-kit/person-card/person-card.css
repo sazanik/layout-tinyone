@@ -6147,6 +6147,9 @@ body {
   padding: 0;
 }
 
+.team {
+  margin-bottom: 182px;
+}
 .team__desc {
   margin-bottom: 75px;
 }
