@@ -3,9 +3,32 @@
 @import "../../scss/my-mixins";
 @import "../../scss/style";
 
+
+
+.team {
+
+  &__desc {
+    margin-bottom: 75px;
+  }
+
+  &__content {
+    max-width: 860px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 70px;
+
+    @media (max-width: 1000px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
+}
+
+
 .person-card {
   @include links;
-  margin-bottom: 40px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +36,7 @@
   &__wrapper-img {
     width: 128px;
     height: 128px;
-    margin-bottom: 24px;
+    margin-bottom: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,20 +52,20 @@
     font-size: 22px;
     line-height: 24px;
     font-weight: 400;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
   }
 
 
   &__position {
     color: $secondary-color-font;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
   }
 
   &__desc {
-    width: 200px;
+    width: 165px;
     margin-bottom: 14px;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 18px;
   }
 
   &__social {
