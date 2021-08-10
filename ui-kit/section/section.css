@@ -6167,12 +6167,8 @@ body {
   color: #898989;
 }
 .section__content {
-  max-width: 914px;
-  max-height: 310px;
+  max-width: 916px;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 /*# sourceMappingURL=section.css.map */

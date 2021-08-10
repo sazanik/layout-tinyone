@@ -6147,21 +6147,30 @@ body {
   padding: 0;
 }
 
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 83px 40px;
+}
+@media (max-width: 950px) {
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
 .feature-card {
   width: 268px;
   height: 116px;
   display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
+  justify-content: space-between;
   text-align: left;
 }
 .feature-card__wrapper-img {
-  width: 40px;
-  padding: 3px 5px 0 0;
+  width: 44px;
   display: flex;
   justify-content: center;
-  font-size: 38px;
-  margin-right: 28px;
 }
 .feature-card__title {
   font-size: 22px;
