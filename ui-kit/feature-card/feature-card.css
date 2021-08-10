@@ -6147,13 +6147,13 @@ body {
   padding: 0;
 }
 
-.features {
+.features__content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 83px 40px;
 }
 @media (max-width: 944px) {
-  .features {
+  .features__content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

@@ -6147,7 +6147,7 @@ body {
   padding: 0;
 }
 
-.pricing {
+.pricing__content {
   max-width: 744px;
   margin-top: -10px;
   display: grid;
@@ -6155,7 +6155,7 @@ body {
   gap: 83px 40px;
 }
 @media (max-width: 944px) {
-  .pricing {
+  .pricing__content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
