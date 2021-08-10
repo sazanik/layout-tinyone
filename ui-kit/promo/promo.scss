@@ -28,24 +28,4 @@
     line-height: 24px;
     text-align: center;
   }
-
-  &__button {
-    margin-right: 22px;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .promo {
-    &__title {
-      margin-right: 4px;
-    }
-
-    &__desc {
-      margin-right: 14px;
-    }
-
-    &__button {
-
-    }
-  }
 }

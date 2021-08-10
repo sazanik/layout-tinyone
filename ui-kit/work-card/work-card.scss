@@ -3,6 +3,25 @@
 @import "../../scss/my-mixins";
 @import "../../scss/style";
 
+
+.works {
+  margin-top: -38px;
+
+  &__content {
+    max-width: 944px;
+    margin-top: -18px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 44px 20px;
+
+    @media (max-width: 1000px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
+}
+
 .works-card {
   @include links;
   position: relative;
@@ -16,8 +35,8 @@
     display: block;
     width: 220px;
     height: 220px;
-    margin-bottom: 10px;
-    }
+    margin-bottom: 17px;
+  }
 
   &__img {
     max-width: 100%;
@@ -26,7 +45,7 @@
 
   &__info {
     width: 220px;
-    padding: 0 10px;
+    padding: 0 12px 0 14px;
     position: absolute;
     top: 190px;
     display: flex;
@@ -46,9 +65,6 @@
     line-height: 20px;
     color: $secondary-color-font;
   }
-
-
-
 
 
 }

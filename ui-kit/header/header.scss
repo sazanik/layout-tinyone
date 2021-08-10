@@ -37,10 +37,6 @@
 
     align-items: center;
     justify-content: space-between;
-
-    .twitter {
-      margin-left: 15px;
-    }
   }
 
   &__item {
@@ -48,11 +44,3 @@
   }
 }
 
-@media screen and (min-width: 1400px) {
-  .header {
-    &__logo-link {
-
-    }
-  }
-
-}

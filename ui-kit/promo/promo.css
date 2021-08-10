@@ -6190,17 +6190,5 @@ body {
   line-height: 24px;
   text-align: center;
 }
-.promo__button {
-  margin-right: 22px;
-}
-
-@media screen and (min-width: 1400px) {
-  .promo__title {
-    margin-right: 4px;
-  }
-  .promo__desc {
-    margin-right: 14px;
-  }
-}
 
 /*# sourceMappingURL=promo.css.map */
