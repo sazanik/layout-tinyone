@@ -6152,7 +6152,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 83px 40px;
 }
-@media (max-width: 950px) {
+@media (max-width: 944px) {
   .features {
     display: flex;
     flex-wrap: wrap;
